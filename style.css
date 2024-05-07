@@ -1,0 +1,126 @@
+*{
+    font-family: "inter";
+    margin: 0px;
+}
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#title-top{
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+#text-top{
+    margin: 0px 0px 0px 180px;
+}
+#top-menu{
+    color: #FFFFFF;
+    background-image: url(images/title-bg.svg);
+    padding-bottom: 80px;
+
+}
+#info-menu{
+    color: #122235;
+    background-color: #EAECE5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icon{
+    margin: 50px 0px 50px 100px;
+}
+.info-text{
+    display: flex;
+    align-items: center;
+}
+#vid-sect{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+}
+#vid-title{
+color: #247BA0;
+}
+#vid-subtitle{
+    color:#383838;
+}
+#vid{
+    margin: 50px 25px 50px 100px;
+}
+#students{
+    background-color: #247BA0;
+    padding: 100px;
+}
+#students-title{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 50;
+    margin-right: 50;
+}
+#L-arrow{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+.arrow{
+    margin-top: 60px;
+    cursor: pointer;
+    
+}
+.arrow:hover{
+    transform:translateY(-8px);
+    transition-duration: 0.5s;
+}
+#form{
+    margin-top: 50px;
+    text-align: center;
+}
+#form-title{
+    color: #383838;
+    font-size: 25px;
+    margin: 30px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button{
+    background-color: #247BA0;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    height: 45px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1486b8;
+    transform: translateY(-8px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px 0px rgb(102, 132, 163);
+}
