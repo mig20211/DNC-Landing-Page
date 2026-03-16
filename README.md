@@ -1,2 +1,2 @@
 # DNC-Landing-Page
-Landing page da DNC (não oficial)
+Landing page da DNC 
